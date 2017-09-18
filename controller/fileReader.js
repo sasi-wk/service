@@ -552,9 +552,8 @@ module.exports = {
                                 }
                             }
                         }
-
                         list.push(ServiceDelegate)
-                        typeof options.callback === 'function' && options.callback(list)
+                        typeof options.callback === 'function' && options.callback(list)   
                     }
                 } else {
                     console.log("not find")

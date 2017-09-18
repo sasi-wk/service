@@ -2,7 +2,8 @@ var multer = require('multer'),
     express = require('express'),
     fileuploader = express(),
     fileReader = require('./fileReader'),
-    uploaded = require('./uploaded');
+    uploaded = require('./uploaded'),
+    fs = require('fs');
 var datetimestamp = Date.now();
 var date = new Date();
 var typeoffile = '';
@@ -56,10 +57,15 @@ fileuploader.post('/upload', function (req, res) {
                 {
                     inputPath: 'uploads/' + req.file.filename,
                     callback: function (list) {
-                        //console.log('list complete')
-                        // for (let i in list) {
-                        //     //วนลูปส่งค่าไปยัง PHIE
-                        // }
+                        //////////////////
+                        for(let i = 1;i<list.length;i++){
+                            /*fs.writeFileSync("./tmp/"+i+".txt",JSON.stringify(list), function (err) {
+                                if (err) {
+                                    return console.log(err);
+                                }
+                                console.log("The file was saved!");
+                            });*/
+                        }
                     }
                 })
             res.json({ status: 'upload success', filename: req.file.filename })
