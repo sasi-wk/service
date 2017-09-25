@@ -1,4 +1,0 @@
-hcode|vn|refer_no|refer_type|refer_hcode|refer_datetime|chief_complaint|symptom|symptom_historical|prelab|predx|pretreat|cause|othcause|dct|priority|request|active|updatedatetime
-14966|060040600|OU6000643|1|11482|2017-08-16T11:46:00:000+07:00||ขอใบส่งตัวไปทำแผล
-มาขอทำแผลต่อเนื่อง แผลถลอกบริเวณหน้าท้องด้านขวา แขนขวาและเข่าขวา ให้ประวัติรถMCล้มเมื่อ13ส.ค.60 ทำแผลต่อเนื่องรพ.วิภาวดีอยุ่|||ABRASION WOUND AT LEG บาดแผลถลอกบริเวณขา (S80.8)
-ABRASION WOUND AT ELBOW  FOREARM แผลถลอกบริเวณข้อศอก / ปลายแขน (S50.7)||1||ว45099|N||1|2017-08-16T11:46:21:000+07:00
